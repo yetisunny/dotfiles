@@ -1,0 +1,53 @@
+0000000000000000000000000000000000000000 9a7ad7c8f6245e861325be29bd34de5da9a82d1f Luuk van der Heijden <luukjamal1404@hotmail.com> 1730715307 +0100	branch: Created from origin/main
+9a7ad7c8f6245e861325be29bd34de5da9a82d1f 4afb13a9c44fea4e0819714b33953185fe1c1ff5 Luuk van der Heijden <luukjamal1404@hotmail.com> 1730817715 +0100	commit: add relative line
+4afb13a9c44fea4e0819714b33953185fe1c1ff5 87486785b9ea41840395b5576e0f57ef09d17f4e Luuk van der Heijden <luukjamal1404@hotmail.com> 1730996532 +0100	commit: hathastrha
+87486785b9ea41840395b5576e0f57ef09d17f4e 4afb13a9c44fea4e0819714b33953185fe1c1ff5 Luuk van der Heijden <luukjamal1404@hotmail.com> 1730996538 +0100	rebase (finish): refs/heads/main onto 4afb13a9c44fea4e0819714b33953185fe1c1ff5
+4afb13a9c44fea4e0819714b33953185fe1c1ff5 9aaa07355f53c188d146620901051e0c7ead614d Luuk van der Heijden <luukjamal1404@hotmail.com> 1731107203 +0100	commit: add plugin to allow kitty scrollback interfacing
+9aaa07355f53c188d146620901051e0c7ead614d 0065174f2301de0f0e203d404245fe536794553a Luuk van der Heijden <luukjamal1404@hotmail.com> 1731168577 +0100	commit: use gj and gk when in certain type of text files, because it navigates nicer
+0065174f2301de0f0e203d404245fe536794553a 615ffbb2caaede1cb84ad446a2ba3448a52e03c8 Luuk van der Heijden <luukjamal1404@hotmail.com> 1731168775 +0100	commit: smarter gj and gk mapping to respect counts when jumping using relative line numbers
+615ffbb2caaede1cb84ad446a2ba3448a52e03c8 2350417b5506e8340eaf9d5f3be5ed6d3daf6fd5 Luuk van der Heijden <luukjamal1404@hotmail.com> 1731266345 +0100	commit: remove ugly broken register plugin
+2350417b5506e8340eaf9d5f3be5ed6d3daf6fd5 1600feb85539b60bcd81fa4b3b772cc7e3cbfbf0 Luuk van der Heijden <luukjamal1404@hotmail.com> 1731266462 +0100	commit: nice mode indicator on the cursor
+1600feb85539b60bcd81fa4b3b772cc7e3cbfbf0 17b7ede9253e3d1ac281f74d7f635d835199d2bb Luuk van der Heijden <luukjamal1404@hotmail.com> 1731267026 +0100	commit: remove comment
+17b7ede9253e3d1ac281f74d7f635d835199d2bb a03ae6ac1b006fd00db1a2b61fb5414637f6867d Luuk van der Heijden <luukjamal1404@hotmail.com> 1731268086 +0100	commit: open file where you last edited it
+a03ae6ac1b006fd00db1a2b61fb5414637f6867d be54672955a616c70c845ac4a35c612fbda3def6 Luuk van der Heijden <luukjamal1404@hotmail.com> 1731274822 +0100	commit: add a way to see diagnostics from lsp
+be54672955a616c70c845ac4a35c612fbda3def6 6b708a91de9ad86e1ad9c7697ca89ef7cf158c9c Luuk van der Heijden <luukjamal1404@hotmail.com> 1731275744 +0100	commit: installed harpoon, need to think of better keybinds tho, cus these ones are kinda bad
+6b708a91de9ad86e1ad9c7697ca89ef7cf158c9c 9bc6ce2ea21ab4bd5a8178fc32bb56dd15523590 Luuk van der Heijden <luukjamal1404@hotmail.com> 1731276295 +0100	commit: make telescope take up more width of the screen
+9bc6ce2ea21ab4bd5a8178fc32bb56dd15523590 6b708a91de9ad86e1ad9c7697ca89ef7cf158c9c Luuk van der Heijden <luukjamal1404@hotmail.com> 1731276825 +0100	rebase (finish): refs/heads/main onto 6b708a91de9ad86e1ad9c7697ca89ef7cf158c9c
+6b708a91de9ad86e1ad9c7697ca89ef7cf158c9c 3f2c46a97bce3792a8bc34b0e8d09e9d83115fb2 Luuk van der Heijden <luukjamal1404@hotmail.com> 1731280600 +0100	commit: use nvim bqf, makes the quickfix list nicer to use
+3f2c46a97bce3792a8bc34b0e8d09e9d83115fb2 5bb8da062700ff2cd2436bac1e1d549cb8535f95 Luuk van der Heijden <luukjamal1404@hotmail.com> 1731348714 +0100	commit: use leap, instead of flit,and remove Swap for now
+5bb8da062700ff2cd2436bac1e1d549cb8535f95 107b5f04f134407191d6378efa27b90a1c28b87f Luuk van der Heijden <luukjamal1404@hotmail.com> 1731349726 +0100	commit: leap options
+107b5f04f134407191d6378efa27b90a1c28b87f 7653629e46ebf5e7d6a3b2e3d31545d65c0a2c0a Luuk van der Heijden <luukjamal1404@hotmail.com> 1731421899 +0100	commit: autofocus the trouble window
+7653629e46ebf5e7d6a3b2e3d31545d65c0a2c0a bad40ee10cac3be726874e082d4418c7e6cefe3a Luuk van der Heijden <luukjamal1404@hotmail.com> 1731766824 +0100	commit: add treesitter textobects
+bad40ee10cac3be726874e082d4418c7e6cefe3a 9f272cfe4b8f2bb3bf15750e52f03314617b0980 Luuk van der Heijden <luukjamal1404@hotmail.com> 1732704846 +0100	commit: comment out modicator, because it breaks kitty scrollback functionality
+9f272cfe4b8f2bb3bf15750e52f03314617b0980 f9fcd30dd289c1875878bf696fd010bd5641582d Luuk van der Heijden <luukjamal1404@hotmail.com> 1732721175 +0100	commit: better in-word motions using spider, makes w, e and b much nicer to use
+f9fcd30dd289c1875878bf696fd010bd5641582d a5be000def5e196aa99280b948e3bd7db4b86a6a Luuk van der Heijden <luukjamal1404@hotmail.com> 1732721697 +0100	commit: make spider not skip commas etc, might be better to keep this on
+a5be000def5e196aa99280b948e3bd7db4b86a6a 90efb0c2e51e24321a827b253890100277bb31ad Luuk van der Heijden <luukjamal1404@hotmail.com> 1732721900 +0100	commit: try to use the nonsignificant word skip anyway, might remove it later
+90efb0c2e51e24321a827b253890100277bb31ad a5be000def5e196aa99280b948e3bd7db4b86a6a Luuk van der Heijden <luukjamal1404@hotmail.com> 1732721989 +0100	rebase (finish): refs/heads/main onto a5be000def5e196aa99280b948e3bd7db4b86a6a
+a5be000def5e196aa99280b948e3bd7db4b86a6a 84b9dca242295d1e567d6ed3bea47f768a783047 Luuk van der Heijden <luukjamal1404@hotmail.com> 1732962156 +0100	commit: add yazi plugin
+84b9dca242295d1e567d6ed3bea47f768a783047 4fc177acd7f613387e68d32f178c39d1bda14bd5 Luuk van der Heijden <luukjamal1404@hotmail.com> 1732984167 +0100	commit: add flit again, to make the f key a bit better
+4fc177acd7f613387e68d32f178c39d1bda14bd5 84b9dca242295d1e567d6ed3bea47f768a783047 Luuk van der Heijden <luukjamal1404@hotmail.com> 1732984196 +0100	rebase (finish): refs/heads/main onto 84b9dca242295d1e567d6ed3bea47f768a783047
+84b9dca242295d1e567d6ed3bea47f768a783047 896900f2dbd81e957e68c42aada75354c0f17405 Luuk van der Heijden <luukjamal1404@hotmail.com> 1732994433 +0100	commit: add neotree and remove treesitter textobjectts, cus I didn't use it
+896900f2dbd81e957e68c42aada75354c0f17405 5b5f4e297edc08a762de6df39eb36a5aa4f9a0c9 Luuk van der Heijden <luukjamal1404@hotmail.com> 1733853703 +0100	commit: better inline diagnostic messages
+5b5f4e297edc08a762de6df39eb36a5aa4f9a0c9 95974a9525e9f8892da77cb95d103f55a316a65b Luuk van der Heijden <luukjamal1404@hotmail.com> 1733853948 +0100	commit: nicer inline config
+95974a9525e9f8892da77cb95d103f55a316a65b a62ab79ed43bf1cbe56e779f42855c8c741f3ea5 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744297848 +0200	merge splitFilesBranch: Fast-forward
+a62ab79ed43bf1cbe56e779f42855c8c741f3ea5 6572080e84538c21b6ddd05f0799b2c7665bc8e5 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744400740 +0200	commit: java changes
+6572080e84538c21b6ddd05f0799b2c7665bc8e5 fe4b8fb3ab57ba743052e9e05146c3be7bd6d8e2 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744403986 +0200	commit: make the lsp reference menu more readable in telescope
+fe4b8fb3ab57ba743052e9e05146c3be7bd6d8e2 b357876df9b53a77f65b5c986a22280df9f4832b Luuk van der Heijden <luukjamal1404@hotmail.com> 1744405411 +0200	commit: remove comment
+b357876df9b53a77f65b5c986a22280df9f4832b 269f56d1eb0c77189ec3a861be026e5ae2234aee Luuk van der Heijden <luukjamal1404@hotmail.com> 1744405969 +0200	commit: remove some comments from kickstart
+269f56d1eb0c77189ec3a861be026e5ae2234aee dca06b2990d84f2526b0981bed7077b3dd4a5e13 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744454319 +0200	commit: ingnore deprecate messages for now
+dca06b2990d84f2526b0981bed7077b3dd4a5e13 9cf14ba53947d6d1fe2693b9fcd6cc381bd0ebf2 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744454332 +0200	commit: use yazi instead of oil for default leader cd file manager
+9cf14ba53947d6d1fe2693b9fcd6cc381bd0ebf2 f4df27b921f9ad6ef66916416357167805de98e3 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744485914 +0200	commit: try copilot inside cmp instead of ghost text tabbing
+f4df27b921f9ad6ef66916416357167805de98e3 301a69150807562a41d100dd9c0dbb4129f0fac0 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744486066 +0200	commit: disable copilot for certain files
+301a69150807562a41d100dd9c0dbb4129f0fac0 13cf48364996757359b4258cea3ff99ad80f4691 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744487796 +0200	commit: make the goto implementation wider
+13cf48364996757359b4258cea3ff99ad80f4691 7c0dccc4df8f1b9bb0783d97036293511b6f2e4f Luuk van der Heijden <luukjamal1404@hotmail.com> 1744489877 +0200	commit: working blink settup, seemingly
+7c0dccc4df8f1b9bb0783d97036293511b6f2e4f 77c93af96fe7e35e43fcb3d6ffc7f4346e0bf5f8 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744490358 +0200	commit: make these calls wider again
+77c93af96fe7e35e43fcb3d6ffc7f4346e0bf5f8 b708702b30b61c18aa443be82a2974ef3cfcedfc Luuk van der Heijden <luukjamal1404@hotmail.com> 1744490813 +0200	commit: make this wider too
+b708702b30b61c18aa443be82a2974ef3cfcedfc 88a444f4c51db9a077dbf6c3f102ba526e3504b4 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744628404 +0200	commit: add ability to do lsp actions with vertial
+88a444f4c51db9a077dbf6c3f102ba526e3504b4 0b7bc3cda111d687447e5da128e1787f06da1c17 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744642928 +0200	commit: only show current working files
+0b7bc3cda111d687447e5da128e1787f06da1c17 d8ef481cfd4aee205d73097eb8ced0124474b42d Luuk van der Heijden <luukjamal1404@hotmail.com> 1744644193 +0200	commit: auto open oldfiles picker telescope when opening neovim
+d8ef481cfd4aee205d73097eb8ced0124474b42d 219f2fa03c682b2a04325abc9f657fa9380e05f5 Luuk van der Heijden <luukjamal1404@hotmail.com> 1744645322 +0200	commit: add buffer to list of sources for blink
+219f2fa03c682b2a04325abc9f657fa9380e05f5 c60e6b3dc765ba3860eab498d573d5b22ad2cd7f Luuk van der Heijden <luukjamal1404@hotmail.com> 1744645552 +0200	commit: discount buffer cmp
+c60e6b3dc765ba3860eab498d573d5b22ad2cd7f 9e50923a6d16cddb9425be2283320bc9c6805700 Luuk van der Heijden <luukjamal1404@hotmail.com> 1747860481 +0200	commit: annnoying
+9e50923a6d16cddb9425be2283320bc9c6805700 4e1cd7e3df05fdb95c059a022b4f80fed9067bb2 Luuk van der Heijden <luukjamal1404@hotmail.com> 1747860643 +0200	commit: golang lsp
+4e1cd7e3df05fdb95c059a022b4f80fed9067bb2 ee8331f3c318295287c32ab135878c72cb98acaa Luuk van der Heijden <luukjamal1404@hotmail.com> 1747907150 +0200	commit: progress
+ee8331f3c318295287c32ab135878c72cb98acaa d1b63bf9a51328c7d7c5fe47bcdd9ac06a462b36 Luuk van der Heijden <luukjamal1404@hotmail.com> 1748293449 +0200	commit: working?
