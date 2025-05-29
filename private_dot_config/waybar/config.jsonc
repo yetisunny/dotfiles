@@ -21,8 +21,7 @@
         "custom/wayves",
         "pulseaudio",
         // "custom/brightness-toggle",
-        "clock",
-        "custom/power",
+        "clock"
     ],
     // Modules configuration
      "hyprland/workspaces": {
