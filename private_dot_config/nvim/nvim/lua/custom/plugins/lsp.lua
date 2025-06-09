@@ -49,6 +49,14 @@ return {
     vim.api.nvim_create_autocmd('LspAttach', {
       group = vim.api.nvim_create_augroup('kickstart-lsp-attach', { clear = true }),
       callback = function(event)
+        local bufnr = event.buf
+        local filetype = vim.api.nvim_get_option_value('filetype', { buf = bufnr })
+        if filetype == 'txt' then
+          -- Disable all LSPs for txt files
+          --  This is useful if you want to disable LSPs for certain filetypes
+          --  that you don't want LSPs to run on.
+          return
+        end
         -- NOTE: Remember that Lua is a real programming language, and as such it is possible
         -- to define small helper and utility functions so you don't have to repeat yourself.
         --
@@ -255,6 +263,8 @@ return {
     vim.list_extend(ensure_installed, {
       'stylua', -- Used to format Lua code
     })
+    -- disable all lsps for txt file
+
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
     require('mason-lspconfig').setup {

@@ -82,15 +82,9 @@ return { -- Autocompletion
     },
 
     sources = {
-      default = { 'copilot', 'lsp', 'path', 'buffer', 'snippets', 'lazydev' },
+      default = {  'lsp', 'path', 'buffer', 'snippets', 'lazydev' },
       providers = {
         lazydev = { module = 'lazydev.integrations.blink', score_offset = 100 },
-        copilot = {
-          name = 'copilot',
-          module = 'blink-cmp-copilot',
-          score_offset = 1000,
-          async = true,
-        },
         buffer = {
           name = 'buffer',
           score_offset = -10,
