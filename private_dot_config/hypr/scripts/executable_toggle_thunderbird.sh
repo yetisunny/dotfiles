@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if Kitty is already running with the scratchpad class
+# Check if thunderbird is already running with the scratchpad class
 if pgrep -f "thunderbird.*--class scratchpad" > /dev/null; then
     # If running, just toggle the workspace
     hyprctl dispatch togglespecialworkspace thunderbird
