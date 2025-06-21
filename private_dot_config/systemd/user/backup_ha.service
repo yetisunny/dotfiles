@@ -1,0 +1,6 @@
+[Unit]
+Description=Backup Home Assistant backups from server
+
+[Service]
+Type=oneshot
+ExecStart=%h/AutomatedScripts/back_ha.sh

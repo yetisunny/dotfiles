@@ -1,0 +1,16 @@
+
+[Unit]
+Description=Sync Published Notes and Run Quartz Sync using nvm Node 22
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/luuk
+ExecStart=/bin/bash -c '\
+  export NVM_DIR="$HOME/.nvm" && \
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && \
+  nvm use 22 && \
+  /home/luuk/NoteSyncer/syncPublishedNotes && \
+  cd /home/luuk/quartz && \
+  npx quartz sync \
+'
+

@@ -1,0 +1,14 @@
+[Unit]
+Description=Gradually adjust screen gamma and temperature via hyprctl hyprsunset
+# Ensures this runs after graphical environment is likely ready (optional but good practice)
+# After=graphical-session.target
+
+[Service]
+Type=oneshot
+# IMPORTANT: Use the full path to your script
+ExecStart=%h/.config/hypr/brighnessetter.sh
+# Ensure necessary environment variables are available (usually inherited for user services)
+# PassEnv DISPLAY WAYLAND_DISPLAY HYPRLAND_INSTANCE_SIGNATURE XDG_RUNTIME_DIR DBUS_SESSION_BUS_ADDRESS
+
+[Install]
+WantedBy=default.target
